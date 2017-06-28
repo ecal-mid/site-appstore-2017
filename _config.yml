@@ -6,9 +6,9 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: No Score Hardcore Class Apps
-desc: No score hardcore description
-
+title: Advanced Interaction 2017
+desc: "The project developed this first semester consisted in the creation of iPad games with three strict constraints: the absence of a score, no use of colors and perpetual motion. The aim was to create a playful concept highlighting the originality and the 
+efficiency of simple interaction design principles."
 teacher:
   name: Gaël Hugo
   site: http://www.onemore-studio.com/
