@@ -1,0 +1,23 @@
+---
+layout: default
+---
+<h1>{{ site.title }}</h1>
+<p>{{ site.desc }}</p>
+<p>The games made as a part of the advanced Interaction course led by <a href="{{site.teacher.site}}">{{ site.teacher.name }} </a> assisted by Tibor Udvari and Laura Perrenoud.
+
+<h1>Projects</h1>
+<div class="home">
+  {% assign projects = site.projects | sort: "idx" %} 
+  {% for project in projects %}
+      <h1> <a href = "{{project.link}}/" target="_blank">{{ project.name }} </a></h1>
+      <a href = "{{project.link}}/" target="_blank"><img src="{{ project.image }}"/></a>
+    <p></p>
+      <dl>
+        <dt>Description</dt>
+        <dd>{{project.description}}</dd>
+        <dt>Created by</dt>
+        <dd>{{project.created_by}}</dd>
+      </dl>
+     <p><br></p>
+  {% endfor %}
+</div>

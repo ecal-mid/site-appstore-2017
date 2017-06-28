@@ -1,0 +1,43 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: No Score Hardcore Class Apps
+desc: No score hardcore description
+
+teacher:
+  name: Gaël Hugo
+  site: http://www.onemore-studio.com/
+
+# Build settings
+markdown: kramdown
+
+projects:
+  - name: "Ditto Fellow"
+    idx: 2
+    link: https://itunes.apple.com/app/id1207317007
+    appid: 1207317007
+    image: projects/ditto/1.jpg
+    description: "Ditto Fellow is a minimal looking game with simple interactions based on your observation skills. It displays a grid of elements in which you have to find the fellow one following the same motion pattern as the indicator.
+As you complete levels, the difficulty will increase with more error possibilities and more complex movements."
+    created_by: "Aloïs Geiser"
+  - name: "Flow Particles"
+    idx: 1
+    link: https://itunes.apple.com/app/id1207316999
+    appid: 1207316999
+    image: projects/flow/1.jpg
+    description: "Flow Particles is a game inspired by the laws of electromagnetism.
+By changing the electromagnetic field, try to aim the particles toward the receptors."
+    created_by: "Pietro Alberti"
+  - name: "Bolas Bolas"
+    idx: 3
+    link: https://itunes.apple.com/app/id1207317003
+    appid: 1207317003
+    image: projects/bolas/1.jpg
+    description: "Drag the moving circles inside their corresponding corners. Don't trust your brain."
+    created_by: "Andrea Ramirez Aburto"
+
